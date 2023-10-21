@@ -1,0 +1,35 @@
+{
+  "name": "authentication-app",
+  "version": "1.0.0",
+  "description": "creating a full node.js authentication system with jwt",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Babalola Basit",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "chalk": "^4.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BABALOLAbasit/Authentication-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BABALOLAbasit/Authentication-App/issues"
+  },
+  "homepage": "https://github.com/BABALOLAbasit/Authentication-App#readme"
+}
